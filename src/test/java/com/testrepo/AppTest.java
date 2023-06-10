@@ -22,7 +22,6 @@ public class AppTest
 
     public void testAppMath()
     {
-        assertTrue(true);
-        //assertEquals(new AppMath().sum(1, 2), 3);
+        assertEquals(new AppMath().sum(1, 2), 3);
     }
 }
